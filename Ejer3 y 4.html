@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Formulario Ejercicio 3</h1>
+    <form method="post">
+        <fieldset>
+            <legend>Datos</legend>
+            <label for="MarcaCoche"><b>Marca de coche favorita: </b></label>
+            <br>
+            <select name="MarcaCoche" id="MarcaCoche" placeholder="Selecciona una marca" multiple required>
+                <option value="Audi">Audi</option>
+                <option value="BMW">BMW</option>
+                <option value="Volkswagen">Volkswagen</option>
+                <option value="Porsche">Porsche</option>
+                <option value="Otro">Otro</option>
+            </select>
+            <br>
+            <label for="Transmision"><b>Tipo de transmision: </b></label>
+            <br>
+            <label for="Manual">Manual</label>
+            <input type="radio" name="Transmision" value="Manual" id="Manual" required>
+            <br>
+            <label for="Automatico">Automatico</label>
+            <input type="radio" name="Transmision" value="Automatico" id="Automatico" required>
+            <br><br>
+            <button type="reset">Borrar</button>
+            <button type="submit">Enviar</button>
+        </fieldset>
+    </form>
+</body>
+
+</html>
